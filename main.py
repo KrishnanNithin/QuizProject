@@ -5,3 +5,4 @@ question_bank = []
 for info in question_data:
     newq = Question(info['text'], info['answer'])
     question_bank.append(newq)
+
