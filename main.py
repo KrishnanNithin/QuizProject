@@ -9,8 +9,8 @@ for info in question_data:
     newq = Question(info['text'], info['answer'])
     question_bank.append(newq)
 
-
 brain = QuizBrain(question_bank)
+
 while brain.still_has_questions():
     brain.next_question()
 
